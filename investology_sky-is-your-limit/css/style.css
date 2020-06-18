@@ -29,6 +29,7 @@ a{
     text-decoration: none;
 }
 
+
 p{
     margin: 0.75rem 0;
 }
@@ -145,6 +146,17 @@ p{
     padding: 0.75rem;
     margin: 0 0.25rem;
 }
+
+
+
+/* Make last a different from the other */
+#navbar ul li:last-child a:hover{
+    color: var(--primary-color);
+    background: var(--light-gray);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 
 #navbar ul li a:hover{
