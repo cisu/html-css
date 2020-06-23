@@ -1,0 +1,27 @@
+/* show by 1 icon in service sections */
+.service-box{
+    max-width: 100%;
+}
+
+/* about section */
+
+#about .about-text{
+    text-align: center;
+    overflow: scroll;
+}
+
+#about .about-text h1,
+#about .about-text h2{
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+#about .about-text ul{
+    margin: 0.25rem;
+}
+
+#about .about-text ul li{
+    padding: 0.25rem 0;
+    letter-spacing: 1px;
+    border-bottom: var(--secondary-color) dotted 1px;    
+}

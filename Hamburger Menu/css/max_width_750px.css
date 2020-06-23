@@ -1,0 +1,47 @@
+/* display image form about section */
+.about-img{
+    display: none;
+}
+
+
+/* show by 2 icon in service sections */
+.service-box{
+    max-width: 50%;
+}
+
+/* Put margin in contact form and lower the fonts */
+#contact{
+    margin: 2rem;
+}
+
+#contact .contact-title{
+    padding-top: 1.5rem;
+}
+
+#contact .btn-dark{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+/* about section */
+
+#about .about-text{
+    text-align: center;
+    overflow: hidden;
+}
+
+#about .about-text h1,
+#about .about-text h2{
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+#about .about-text ul{
+    margin: 0.5rem;
+}
+
+#about .about-text ul li{
+    padding: 0.75rem 0;
+    letter-spacing: 2px;
+    border-bottom: var(--secondary-color) dotted 1px;    
+}

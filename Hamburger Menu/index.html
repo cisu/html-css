@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontawesome/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 880px)" href="css/max_width_880px.css">
+    <link rel="stylesheet" media="screen and (max-width:750px)" href="css/max_width_750px.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="./css/max_width_480px.css">
+    <title>Hamburger Menu</title>
+</head>
+
+<body>
+
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li class="nav__link"><a href="#showcase">Home</a></li>
+                        <li class="nav__link"><a href="#about">About</a></li>
+                        <li class="nav__link"><a href="#services">Services</a></li>
+                        <li class="nav__link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="showcase">
+        <div class="container showcase-container">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est praesentium voluptates sit, rerum quibusdam
+                eos laborum repellat nam adipisci debitis pariatur consectetur nisi recusandae iste? Odit cum rerum
+                laboriosam explicabo sequi? Qui magni, recusandae atque alias mollitia doloribus neque quam ipsum? Nulla
+                asperiores illum alias quod! Tempora distinctio neque explicabo?</p>
+            <a href="#services" class="btn">Read More</a>
+        </div>
+    </header>
+
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="about-img">
+        </div>
+        <div class="about-text">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quia dolorem rem sunt explicabo
+                dignissimos.</p>
+            <h2>Our Team</h2>
+            <ul>
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnoson: CFO</li>
+                <li>John Corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Jackson: Senior Accountant</li>
+            </ul>
+        </div>
+
+
+    </section>
+
+
+    <!-- New Section Services  -->
+    <section id="services">
+        <div class="inner-width">
+            <h1 class="section-title">Our Services</h1>
+            <div class="border"></div>
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-icon"><i class="fad fa-code"></i></div>
+                    <div class="service-title">Web development</div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aut
+                        voluptatem
+                        ipsa sit harum blanditiis.</div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fal fa-paint-brush"></i></div>
+                    <div class="service-title">Web designs</div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. A reprehenderit
+                        iusto
+                        sit?</div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="far fa-send-backward"></i></div>
+                    <div class="service-title">Responsive design</div>
+                    <div class="service-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+                        adipisci?
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fad fa-database"></i></div>
+                    <div class="service-title">Databases</div>
+                    <div class="service-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam,
+                        numquam
+                        nesciunt.
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fad fa-mobile"></i></div>
+                    <div class="service-title">Pwa</div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        dicta
+                        ex
+                        itaque quas. Aliquam, nihil!</div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="service-title">react native</div>
+                    <div class="service-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="contact-title">
+            <h1>Contact Us</h1>
+            <p>Please use the form below to contact us</p>
+        </div>
+        <div class="border"></div>
+        <form class="contact-form">
+            <div class="container">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id='name' placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id='email' placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="mesage">Message</label>
+                    <textarea name="message" id="mesage" cols="30" rows="10" placeholder="Your message"></textarea>
+                </div>
+                <div>
+                    <input class="btn btn-dark" type="submit" value="Send">
+                </div>
+            </div>
+        </form>
+
+    </section>
+
+
+
+    <!-- footer section -->
+    <footer id="footer">
+
+        &copy; 2020, all ect...
+
+    </footer>
+
+
+    <script src="./css/fontawesome/all.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
